@@ -1,3 +1,5 @@
 body{
     background-image: url(./imgs/Keyboards-Background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
