@@ -2,4 +2,55 @@ body{
     background-image: url(./imgs/Keyboards-Background.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#search{
+    max-width: 50px;
+    max-height: 50px;
+}
+#cart{
+    max-width: 50px;
+    max-height: 50px;
+}
+#line{
+    border: 1px solid black;
+    max-height: 1px;
+}
+.produkt{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+#price{
+    display: flex;
+    flex-direction: row;
+}
+#add{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fot{
+    color: white;
+}
+.keyboard{
+    max-width: 100px;
+    max-height: 100px;
+}
+#knapp{
+    color: white;
+    background-color: aqua;
 }
