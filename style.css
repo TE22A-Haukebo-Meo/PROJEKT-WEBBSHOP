@@ -78,3 +78,15 @@ footer{
     color: white;
     background-color: aqua;
 }
+#skalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+#noggin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
