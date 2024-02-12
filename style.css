@@ -123,3 +123,14 @@ p{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+.fot:hover{
+    color: crimson;
+    
+}
+.länk:hover{
+    color: crimson;
+    
+}
+a{
+    text-decoration: none;
+}
