@@ -202,8 +202,90 @@ footer{
 
 @media screen and (max-width: 640px) {
 
-body {
-    display:grid
-    grid-template-columns: 1fr; 
-}
+    body{
+        grid-template-columns: 1fr;
+        background-size: 360%;
+        grid-template-rows: 1fr;
+    }
+    header{
+        grid-column-end: 2;
+        justify-content: space-evenly;
+    }
+    #line{
+        grid-column-end: 2;
+        margin: 3px;
+    }
+    #blue{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #grey{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #pink{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #white{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    #red{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    #goof{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        grid-column-end: 2;
+        height: 75px;
+        grid-row-start: 9;
+        grid-row-end: 10;
+
+    }
+    .keyboard{
+        width: 150px;
+        height: 85px;
+        align-self: center;
+    }
+    .produkt{
+        padding: 5px;
+        flex-direction: row;
+        max-height: 130px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    } 
+    #skalle{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+    }
+    #Sök{
+        display: none;
+    }
+    h2{
+        align-self: center;
+    }
+    #add{
+        align-self: center;
+    }
 }
