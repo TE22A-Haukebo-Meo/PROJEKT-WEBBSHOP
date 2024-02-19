@@ -123,7 +123,7 @@ function visa_produkter(produkt) {
         console.log("visa_produkter TOM");
         return;
     }
-    let produkt_div = document.querySelector("#kundvagn");
+    let produkt_div = document.querySelector(".kundvagn");
     produkt_div.innerHTML="";
     for (let i = 0; i< produkt.length; i++){
         let article = document.createElement("article");
