@@ -134,6 +134,11 @@ p{
 a{
     text-decoration: none;
 }
+#cartknapp{
+    height: 50px;
+    width: 50px;
+}
+
 @media screen and (min-width: 641px) and (max-width:1007px) {
 
 body{
