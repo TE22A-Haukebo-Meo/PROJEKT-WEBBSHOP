@@ -138,6 +138,22 @@ a{
     height: 50px;
     width: 50px;
 }
+.kundvagn{
+    background-color: white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin: 15px;
+    border: 2px solid black;
+    position: relative;
+}
+#betala{
+
+}
+#Töm{
+    
+}
 
 @media screen and (min-width: 641px) and (max-width:1007px) {
 
