@@ -138,7 +138,7 @@ a{
     height: 50px;
     width: 50px;
 }
-.kundvagn{
+#kundvagns_container{
     background-color: white;
     grid-column-start: 4;
     grid-column-end: 5;
@@ -147,12 +147,18 @@ a{
     margin: 15px;
     border: 2px solid black;
     position: relative;
+    line-height: 3vh;
+    text-indent: 10px;
 }
-#betala{
-
+#kundvagns_container button{
+    position: absolute;
+    bottom: 3px;
 }
 #Töm{
-    
+    left: 76%;
+}
+#betala{
+    left: 63%;
 }
 
 @media screen and (min-width: 641px) and (max-width:1007px) {

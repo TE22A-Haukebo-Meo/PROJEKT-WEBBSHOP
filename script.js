@@ -1,3 +1,5 @@
+
+
 function lägg_blue_i_vagn() {
     let produkt = {
         namn: "Blue",
@@ -128,9 +130,13 @@ function visa_produkter(produkt) {
     for (let i = 0; i< produkt.length; i++){
         let article = document.createElement("article");
         let p = document.createElement("p");
-        p.innerHTML=produkt[i].namn+"      "+produkt[i].pris;
-        p.innerHTML=produkt[i].mängd;
+        p.innerHTML=produkt[i].namn+"      "+produkt[i].pris+"          "+produkt[i].mängd;
         article.append(p);
         produkt_div.append(article);
     }
+}
+function tom_kundvagn(){
+    let produkt_div = document.querySelector(".kundvagn");
+    produkt_div.innerHTML="";
+    localStorage.removeItem("produkt_fält");
 }
