@@ -223,6 +223,12 @@ footer{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+#kundvagns_container{
+    display: none;
+}
+.kundvagn{
+    display: none;
+}
 }
 
 
@@ -315,4 +321,11 @@ footer{
     #add{
         align-self: center;
     }
+    #kundvagns_container{
+        display: none;
+    }
+    .kundvagn{
+        display: none;
+    }
+    
 }
