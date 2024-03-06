@@ -148,7 +148,7 @@ a{
     border: 2px solid black;
     position: relative;
     line-height: 3vh;
-    text-indent: 10px;
+    text-indent: 1vh;
 }
 #kundvagns_container button{
     position: absolute;
@@ -213,7 +213,7 @@ header{
 }
 footer{
     grid-column-end: 3;
-    height: 125px;
+    height: 12.5vh;
 }
 .keyboard{
     width: 15vh;
@@ -288,20 +288,20 @@ footer{
         position: fixed;
         bottom: 0;
         grid-column-end: 2;
-        height: 75px;
+        height: 7.5vh;
         grid-row-start: 9;
         grid-row-end: 10;
 
     }
     .keyboard{
-        width: 150px;
-        height: 85px;
+        width: 15vh;
+        height: 8.5vh;
         align-self: center;
     }
     .produkt{
         padding: 5px;
         flex-direction: row;
-        max-height: 130px;
+        max-height: 13vh;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 5px;
@@ -310,7 +310,7 @@ footer{
     #skalle{
         display: flex;
         flex-direction: column;
-        width: 50px;
+        width: 5vh;
     }
     #Sök{
         display: none;
